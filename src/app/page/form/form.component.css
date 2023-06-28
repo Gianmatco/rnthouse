@@ -1,0 +1,132 @@
+
+.form-jumbo{
+
+  color: #ffffff !important;
+  /*height: calc(100vh - 71px);*/
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/images/backForm/back-form9.avif);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:scroll ;
+  background-position: center;
+}
+
+.form-cols{
+  margin-top: -150px;
+}
+
+.form-dx{
+
+  margin: 0;
+  padding: 0;
+}
+
+.form-sx-c p,.qwe{
+  font-weight: 350 !important;
+  font-size: 27px !important;
+}
+
+.back-yellow{
+  background-color: #ffc007;
+  padding: 30px;
+  border-radius: 10% 25%;
+  color: #ffffff;
+}
+
+.padding-top--24 {
+  padding-top: 24px;
+}
+.padding-top--48 {
+  padding-top: 48px;
+}
+.padding-bottom--24 {
+  padding-bottom: 24px;
+}
+.padding-horizontal--48 {
+  padding: 48px;
+}
+
+
+
+
+
+.formbg {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 448px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+span {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1a1f36;
+}
+label {
+    margin-bottom: 10px;
+}
+.reset-pass a,label {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+
+.field input {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.field-checkbox input {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    box-shadow: unset;
+    min-height: unset;
+}
+.field-checkbox label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.footer-link span {
+    font-size: 14px;
+    text-align: center;
+}
+.listing a {
+    color: #697386;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.raise{
+    color: #fff;
+}
+.raise:hover,
+.raise:focus {
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em #697386;
+  transform: translateY(-0.25em);
+}
+
+
+
+

@@ -1,0 +1,139 @@
+<app-jumbotron></app-jumbotron>
+<div>
+  <div class=" mt-5 pt-70">
+    <div class="sez-1-c container-lg align-items-center">
+      <div class="text-center row d-flex justify-content-center">
+        <div class="col-xl-6 col-lg-8 col-md-12">
+          <h1>
+            Perchè  <span class="color6">RntHouse</span>
+          </h1>
+          <h2>
+            Massimizziamo la redditività <br> del tuo immobile
+          </h2>
+          <p class="text-center">
+            Garantiamo una gestione sicura del tuo immobile, garantita, puntuale e controllata e una riconsegna in perfetto stato. Pensiamo a tutto noi, così potrai goderti il tuo tempo in totale relax e senza stress.
+          </p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-around ">
+        <div class="col-lg-4 col-md-9 py-4">
+          <article class="card h-100">
+            <header class="card__thumb">
+                <img src="/assets/images/team.avif"/>
+                <fa-icon class="fa-regular fa-house-circle-check ih" [icon]="fahousecirclecheck"></fa-icon>
+            </header>
+            <div class="card__body">
+                <h2 class="card__title"><a href="#">Incremento dei guadagni</a></h2>
+                <p class="card__description">Compila il form indicandoci le caratteristiche dell’appartamento  che vuoi affittare, ti contatteremo quanto prima.</p>
+            </div>
+        </article>
+        </div>
+        <div class="col-lg-4 col-md-9 py-4 ">
+            <article class="card h-100">
+                <header class="card__thumb">
+                    <img src="/assets/images/team-3.avif"/>
+                    <fa-icon class="fa-regular fa-desktop id" [icon]="fadesktop"></fa-icon>
+                </header>
+                <div class="card__body">
+                    <h2 class="card__title"><a href="#">Sicurezza garantita</a></h2>
+                    <p class="card__description">Pour the mixture into a non-stick container and then freeze overnight. Take.</p>
+                </div>
+            </article>
+        </div>
+        <div class="col-lg-4 col-md-9 py-4 ">
+          <article class="card h-100">
+            <header class="card__thumb">
+                <img src="/assets/images/gestione.avif"/>
+                <fa-icon class="fa-regular fa-money-bill-1-wave im" [icon]="famoneybill1wave"></fa-icon>
+            </header>
+            <div class="card__body">
+                <h2 class="card__title"><a href="#">Totale trasparenza</a></h2>
+                <p class="card__description">Pour the mixture into a non-stick container and then freeze overnight. Take.</p>
+            </div>
+        </article>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center pt-4">
+        <button type="button" class="t-no btn btn-warning fw-semibold rounded-pill px-4">
+          Contattaci
+        </button>
+      </div>
+    </div>
+
+    <Style>
+      .sez-img{
+        background-image: url(/assets/images/backg/back-1.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+      }
+      .sex-2-contain-card{
+        margin-top: -100px;
+      }
+
+    </Style>
+  <!--/*sez-2*/-->
+    <div class="sez-2 container-lg pt-70">
+      <div class=" ">
+        <div class="text-center row d-flex justify-content-center  sez-img">
+          <div class="col-xl-7 col-lg-8 col-md-12 pt-5">
+            <h2>
+              Guadagna sul serio col tuo appartamento: affitti brevi con Rnt House!
+            </h2>
+            <p class="fw-normal">
+              Hai già affittato, o pensi di affittare il tuo appartamento per brevi periodi? Vorresti guadagnare di più ma non riesci a occupartene personalmente? L’affitto tradizionale ti ha lasciato l’amaro in bocca? Con CleanBnB l’appartamento accoglierà ospiti da tutto il mondo ed esprimerà tutto il suo potenziale. E tu ricevi mensilmente il tuo guadagno, in modo certo e in assoluta tranquillità.
+            </p>
+          </div>
+        </div>
+        <div class="container-lg align-items-center sex-2-contain-card">
+          <div class="row d-flex justify-content-center ">
+            <div class="col-lg-4 col-md-6 col-sm-12 pt-4 align-items-strench" *ngFor="let item of gestione" >
+              <div class="card d-flex align-items-baseline h-100">
+                <div class="card-body">
+                  <div class="text-center">
+                    <i class="{{item.ico}} c-ico"></i>
+                    <h4 class="card-title  py-3">{{item.title}}</h4>
+                  </div>
+                  <ul class="c">
+                    <li class="d-flex"><div><i class="bi bi-check-circle-fill"></i></div>{{item.ser1}}</li>
+                    <li class="d-flex"><div><i class="bi bi-check-circle-fill"></i></div> {{item.ser2}}</li>
+                    <li class="d-flex"><div><i class="bi bi-check-circle-fill"></i></div>{{item.ser3}}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="say">
+        <div class="say-c">
+
+        </div>
+
+      </div>
+
+  <!--SLIDER-->
+  <app-slider></app-slider>
+
+    </div>
+    <fa-icon class="fa-regular fa-faebook" [icon]="faWhatsapp"></fa-icon>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

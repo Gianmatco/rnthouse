@@ -1,0 +1,41 @@
+.header{
+  background-color:#1b3c46;
+  width: 100%;
+}
+.header-c{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-l{
+  animation: slideRigth 1s ease forwards;
+}
+.header-n{
+  animation: slideTop .5s ease forwards;
+}
+.nav-b a{
+  color:aliceblue;
+}
+
+
+@keyframes slideRigth{
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform:  translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop{
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform:  translateY(0);
+    opacity: 1;
+  }
+}

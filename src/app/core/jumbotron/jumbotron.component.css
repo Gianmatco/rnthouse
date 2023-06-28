@@ -1,0 +1,35 @@
+.jumbo{
+  height: calc(100vh - 71px);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/images/jumbo-b.avif);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:scroll ;
+  background-position: center;
+}
+
+
+.jumbo-c p span{
+  color:red;
+}
+@media(max-width:1024px){
+  .jumbo-c-tw{
+    height: 65px;
+  }
+}
+@media(max-width:425px){
+  .jumbo-c-tw{
+    height: 75px;
+  }
+}
+
+
+.jumbo .tw{
+  text-shadow: -1px -1px 0 #333, 1px -1px 0 #1b3c46, -1px 1px 0 #1b3c46, 1px 1px 0 #1b3c46;
+}
+
+
+
+

@@ -1,0 +1,37 @@
+
+.wrapper{
+
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider{
+  width: 90%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+}
+.slide{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  animation: slideShow 37s linear infinite;
+}
+.slide img{
+
+  padding: 0 30px 0 30px;
+}
+@keyframes slideShow{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-100%));
+  }
+}
+
+
