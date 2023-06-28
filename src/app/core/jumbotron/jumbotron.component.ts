@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 // @ts-ignore
-import Typewriter from 't-writer.js';
+import {Typewriter} from 't-writer.js';
 
 @Component({
   selector: 'app-jumbotron',
